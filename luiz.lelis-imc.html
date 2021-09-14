@@ -1,0 +1,147 @@
+<meta charset="utf-8">
+
+ Calculo de imc:
+ <br>
+ <br>
+
+<script>
+
+	function pulaLinha() {
+
+		document.write ("<br><br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+    function calculaImc(altura, peso) {
+    	
+    	var imc = peso / (altura * altura);
+    	mostra("O imc calculado é " + imc + ".");
+    }
+
+    calculaImc(1.94, 70);
+    calculaImc(1.78, 85);
+
+</script>
+
+<br>
+<br>
+
+Calculo do total de imc's:
+<br>
+<br>
+
+<script>
+
+	function pulaLinha() {
+
+		document.write ("<br><br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+    function calculaImc(altura, peso) {
+    	
+    	var imc = peso / (altura * altura);
+    	return imc
+    }
+
+    var imcEu = calculaImc(1.94, 70);
+    var imcMae = calculaImc(1.78, 85);
+
+    mostra(imcEu);
+    mostra(imcMae);
+
+</script>
+
+ou melhor
+<br>
+<br>
+
+<script>
+
+	function pulaLinha() {
+
+		document.write ("<br><br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+    function calculaImc(altura, peso) {
+    	
+    	return peso / (altura * altura);
+    }
+
+    var imcEu = calculaImc(1.94, 70);
+    var imcMae = calculaImc(1.78, 85);
+    
+    mostra(imcEu);
+    mostra(imcMae);
+
+</script>
+
+<script>
+
+	function pulaLinha() {
+
+		document.write ("<br><br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+    function calculaImc(altura, peso) {
+    	
+    	return peso / (altura * altura);
+    }
+
+    var imcEu = calculaImc(1.94, 70);
+    var imcMae = calculaImc(1.78, 85);
+    var totaImc = imcEu + imcMae;
+
+    mostra("A soma dos imc's é " + totaImc + ".");
+
+</script>
+
+ou 
+<br>
+<br>
+
+<script>
+
+	function pulaLinha() {
+
+		document.write ("<br><br>");
+	}
+
+	function mostra(frase) {
+
+		document.write(frase);
+		pulaLinha();
+	}
+
+    function calculaImc(altura, peso) {
+    	
+    	return peso / (altura * altura);
+    }
+
+    var totaImc = calculaImc(1.94, 70) + calculaImc(1.78, 85);
+
+    mostra("A soma dos imc's é " + totaImc + ".");
+
+</script>

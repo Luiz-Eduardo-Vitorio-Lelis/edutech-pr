@@ -1,0 +1,200 @@
+<meta charset="utf-8">
+
+<script>
+
+	document.write ("<h1>Seja bem-vindo</h1>");
+
+</script>
+
+<script>
+	
+	document.write ("A idade do Luiz é 16.");
+
+</script>
+
+<br>
+<br>
+ou
+<br>
+<br>
+
+ <script>
+
+ 	document.write ("A idade do Luiz é ");
+ 	document.write ("16.");
+
+ </script>
+
+<br>
+<br>
+ou
+<br>
+<br>
+
+ <script> 
+
+ 	document.write ("A idade do Luiz é <br> 16.");
+    document.write ("<br><br>A idade do Luiz é ");
+    document.write (16);
+    document.write ("<-(Aqui 16 está sendo considerado um número e não um texto)");
+
+ </script>
+
+<br>
+<br>
+ou
+<br>
+<br>
+
+
+<script>
+	
+	document.write ("A idade do Luiz é ");
+	document.write (10+6.);
+	document.write ("<-(Aqui está apresentando o resultado de uma soma feita no texto(string) do programa.)");
+
+</script>
+
+<br>
+<br>
+ou
+<br>
+<br>
+
+
+<script>
+	
+	var ano = 2021
+
+	document.write ("A idade do Luiz é " + (ano - 2004)); 
+	document.write ("<-(Utilizando a variavel ano = 2021)");
+    document.write ("<br>");
+    document.write ("<br>");
+
+     ano = 2030
+
+    document.write ("A idade do Luiz é " + (ano - 2004));
+    document.write ("<-(Utilizando a variavel ano = 2030, dentro do mesmo texto JavaScript da linha acima.)");
+
+</script> 
+
+<br>
+<br>
+
+<script>
+
+	var idadeCristina = 45;
+	var idadeLeo = 19;
+	var idadeLuiz = 16;
+	var media = ((idadeCristina + idadeLeo + idadeLuiz) /3);
+
+	document.write ("A media de idade é " + media);
+
+</script>
+
+<br>
+<br>
+
+<script>
+
+	var idadeCristina = 45;
+	var idadeLeo = 19;
+	var idadeLuiz = 16;
+	var media = ((idadeCristina + idadeLeo + idadeLuiz) /3);
+
+	document.write ("A media de idade é " + Math.round(media) + ".");
+    document.write ("<br>");
+    document.write ("<br>");
+
+    var nome = "Luiz";
+
+    document.write ("Meu nome é " + nome + " e eu tenho" + idadeLuiz + " anos.");
+
+ </script>
+
+<br>
+<br>
+
+ <script>
+
+ 	var puloLinha = "<br><br>";
+
+ 	document.write ("Eu tenho 16 anos.");
+ 	document.write (puloLinha);
+ 	document.write ("Minha mãe tem 44 anos.");
+
+ </script>
+
+
+ <br>
+ <br>
+
+ <script>
+
+ 	function pulaLinha() { 
+
+ 	   document.write ("<br><br>");
+
+ 	}
+
+ 	document.write ("Eu tenho 16 anos.");
+
+ 	pulaLinha();
+
+ 	document.write ("Minha mãe tem 44 anos.");
+
+ </script>
+
+ <br>
+ <br>
+
+ <script>
+
+ 	function pulaLinha() { 
+
+ 	   document.write ("<br><br>");
+
+ 	}
+
+ 	function mostra() { 
+
+ 		document.write ("Olá pessoal!");
+ 	}
+
+    mostra();
+
+    pulaLinha();
+
+ 	document.write ("Eu tenho 16 anos.");
+
+ 	pulaLinha();
+
+ 	document.write ("Minha mãe tem 44 anos.");
+
+ </script>
+
+ <br>
+ <br>
+
+ <script>
+
+ 	function pulaLinha() { 
+
+ 	   document.write ("<br><br>");
+
+ 	}
+
+ 	function mostra(frase) { 
+
+ 		document.write (frase);
+ 		pulaLinha();
+ 	}
+
+    mostra("Olá pessoal!");
+
+ 	mostra("Eu tenho 16 anos.");
+
+ 	mostra("Minha mãe tem 44 anos.");
+
+ </script>
+
